@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><img src="logo (2).png" alt="logo"></div>
+            <div class="right"></div>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="#" id="open-cart">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+        <section class="product-page">
+            <h2>Welcome to Our Bouquet Collection</h2>
+            <br>
+            <p class="quote">"Bouquets of Joy, Wrapped in Love"</p>
+    
+            <div class="product-row">
+                <div class="product">
+                    <img src="pinkbeauty.jpg" alt="Bouquet 1">
+                    <h3>Pink Delight</h3>
+                    <span class="price">$69.99</span>
+                    <br>
+                    <button class="add-to-cart" data-product-name="Pink Delight" data-product-price="69.99" data-product-image="pinkbeauty.jpg">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="redroses.jpg" alt="Bouquet 2">
+                    <h3>Red Loves</h3>
+                    <span class="price">$89.98</span>
+                    <br>
+                    <button class="add-to-cart" data-product-name="Red Loves" data-product-price="89.98" data-product-image="redroses.jpg">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="sunflower.jpg" alt="Bouquet 3">
+                    <h3>Sunflower Serenity</h3>
+                    <span class="price">$79.69</span>
+                    <br>
+                    <button class="add-to-cart" data-product-name="Sunflower Serenity" data-product-price="79.69" data-product-image="sunflower.jpg">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="bluetulips.jpg" alt="Bouquet 4">
+                    <h3>Blue Tulips</h3>
+                    <span class="price">$49.99</span>
+                    <br>
+                    <button class="add-to-cart" data-product-name="Blue Tulips" data-product-price="49.99" data-product-image="bluetulips.jpg">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="pinktulip.jpg" alt="Bouquet 5">
+                    <h3>Tulip Delight</h3>
+                    <span class="price">$59.89</span>
+                    <br>
+                    <button class="add-to-cart" data-product-name="Tulip Delight" data-product-price="59.89" data-product-image="pinktulip.jpg">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="goldenhour.jpg" alt="Bouquet 6">
+                    <h3>Golden Hour</h3>
+                    <span class="price">$59.99</span>
+                    <br>
+                    <button class="add-to-cart" data-product-name="Golden Hour" data-product-price="59.99" data-product-image="goldenhour.jpg">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="lavender.jpg" alt="Bouquet 7">
+                    <h3>Lavenders</h3>
+                    <span class="price">$45.99</span>
+                    <br>
+                    <button class="add-to-cart" data-product-name="Lavenders" data-product-price="45.99" data-product-image="lavender.jpg">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="yellowlove.jpg" alt="Bouquet 8">
+                    <h3>Sunflower Delights</h3>
+                    <span class="price">$79.69</span>
+                    <br>
+                    <button class="add-to-cart" data-product-name="Sunflower Delights" data-product-price="79.69" data-product-image="yellowlove.jpg">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <div id="cart-sidebar" class="sidebar">
+            <button id="close-cart" class="close-button">&times;</button>
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+            <div id="cart-total">
+                <p>Total: <span id="total-amount">$0.00</span></p>
+            </div>
+            <button id="buy-now">Buy Now</button>
+        </div>
+        <footer id="footer">
+            <div class="container">
+                <p>&copy; 2023 Your Bouquet Shop|Copyright-Jessica</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+
+</body>
+</html>
+
